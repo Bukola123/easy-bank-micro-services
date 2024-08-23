@@ -12,6 +12,7 @@
 	<artifactId>loans</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>loans</name>
+	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -81,6 +82,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+
+					<image>
+						<name>bikay12/${project.artifactId}}:s4</name>
+					</image>
+
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
